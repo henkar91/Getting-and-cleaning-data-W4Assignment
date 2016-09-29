@@ -113,5 +113,5 @@ tidy <- merge(tidy, activity_label, by = "activity_id", all.x = TRUE)
 
 View(tidy)
 
-write.table(tidy, file = "W4Assignment result.txt", row.names = TRUE, sep = ",")
+write.table(tidy, file = "W4Assignment result.txt", row.names = FALSE, sep = ",")
 
